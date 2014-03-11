@@ -86,6 +86,14 @@ module.exports = function(app) {
   		error: req.flash('error').toString()
   	});
   })
+  app.get('/jianli',function(req,res){
+  	res.render('jianli',{
+  		title: 'jianli',
+  		user: req.session.user,
+  		success: req.flash('success').toString(),
+  		error: req.flash('error').toString()
+  	});
+  })
   app.post('/login', checkNotLogin);
   app.post('/login', function (req, res) {
 	  //生成密码的 md5 值
