@@ -1,8 +1,43 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.social-links li a.twitter{
+	background: url(../images/icons/twitter.png) 50% 50% no-repeat;
+	background-size: 20px 20px;
 }
+.social-links li a.facebook{
+	background: url(../images/icons/facebook.png) 50% 50% no-repeat;
+	background-size: 20px 20px;
+}
+.social-links li a.renren{
+	background: url(../images/icons/renren.png) 50% 50% no-repeat;
+	background-size: 20px 20px;
+}
+.social-links li a.weibo{
+	background: url(../images/icons/weibo.png) 50% 50% no-repeat;
+	background-size: 20px 20px;
+}
+.social-links li a.github{
+	background: url(../images/icons/github.png) 50% 50% no-repeat;
+	background-size: 20px 20px;
+}
+.social-links li a.douban{
+	background: url(../images/icons/douban.png) 50% 50% no-repeat;
+	background-size: 20px 20px;
+}
+.social-links li a.google{
+	background: url(../images/icons/google.png) 50% 50% no-repeat;
+	background-size: 20px 20px;
+}
+.social-links li a{
+	display: block;
+}
+.usher-container{
+	padding-top: 48px;
 
-a {
-  color: #00B7FF;
+}
+body{
+	background-color: #eee;
+	margin: 0;
+}
+.usher-container section,
+.usher-container article{
+
 }
